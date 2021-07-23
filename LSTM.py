@@ -1,28 +1,32 @@
 # Seed value
-# Apparently you may use different seed values at each stage
-seed_value = 1
+seed_number = 1
 
-# 1. Set the `PYTHONHASHSEED` environment variable at a fixed value
+# 1. Set Seed for PYTHONHASHSEED
 import os
-os.environ['PYTHONHASHSEED']=str(seed_value)
+os.environ['PYTHONHASHSEED']=str(seed_number)
 
-# 2. Set the `python` built-in pseudo-random generator at a fixed value
+# 2. Set Seed for Python
 import random
-random.seed(seed_value)
+random.seed(seed_number)
 
-# 3. Set the `numpy` pseudo-random generator at a fixed value
+# 3. Set Seed for Numpy
 import numpy as np
-np.random.seed(seed_value)
+np.random.seed(seed_number)
 
-# 4. Set the `tensorflow` pseudo-random generator at a fixed value
+# 4. Set Seed for Tensorflow
 import tensorflow as tf
-tf.random.set_seed(seed_value)
+tf.random.set_seed(seed_number)
+
+# Pandas for Extracting and Manipulating Matrices
+import pandas as pd
+
+# Matplotlib for Plotting
+import matplotlib.pyplot as plt
 
 # Pandas for Extracting and Manipulating Matrices
 import pandas as pd
 from pandas import DataFrame
 from pandas import concat
-import matplotlib.pyplot as plt
 
 # LSTM Layers
 from keras.models import Sequential
