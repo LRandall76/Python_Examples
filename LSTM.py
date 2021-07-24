@@ -45,12 +45,6 @@ from sklearn.preprocessing import MinMaxScaler
 import hyperopt as hyperopt
 from hyperopt import hp, fmin, tpe, STATUS_OK, Trials
 
-# To Clear Screen
-from IPython.display import clear_output
-
-# For Math Stuff
-import math
-
 # Import Variables
 target = pd.read_csv('/Users/retribuxion/desktop/resources/Data File/Load/load.txt', sep=" ", header=None)
 matrix = pd.read_csv('/Users/retribuxion/desktop/resources/Data File/Hour Ahead/matrix.txt', header=None)
