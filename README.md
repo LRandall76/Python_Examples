@@ -3,7 +3,7 @@ Examples of My Code Writing Ability in Python
 
 
 ## ANN.py
-Imports and formats data. Then creates and trains a Simple ANN to generate results with plots.  
+Imports and formats data. Then creates and trains a Simple ANN to generate results with plots. Forecasts for 1 year w/ hour ahead forecasting.  
 
 ## ARIMA.py
 Imports and formats data. Generates several plots to identify relative parameters for an ARIMA network. Then, an ARIMA network is
@@ -19,7 +19,7 @@ Percentage Error).
 Very similar to LSTM.py but with more data formating and then defining of a function and search space for optimization. Plots results.
 
 ## RNN.py
-Almost Identical to ANN code but with data sequenced into a "time series."
+Almost Identical to ANN code but with data sequenced into a "time series." Also, forecasts for two weeks instead of 1 year.
 
 ## Tracking_Thermal_Camera_Code.py
 A snippit of code that was used to track a thermal body for my Senior Design Project. Works with a Raspberry Pi 4, a FLIR Lepton 3.5 Camera, 
