@@ -2,3 +2,9 @@ Here is a youtube link to my senior design team's Thermal Spotlight tracking me.
 Note how the camera initially finds me in the dark as it uses thermal imaging to track. 
 
 https://youtu.be/Y7GeaLUEzRs
+
+While my group assisted me in creating the project, I am credited with thinking of and creating the system that tracks.
+The system works by relating a matrix of returned values from a thermal camera to the camera's Field of Vision.
+Then it finds the center of any large hot mass of pixels. Using the camera's FOV, we can relate where the center of the
+mass is to where the camera is currently facing in degrees. Then we output to a servo how many degrees to turn and
+a quick but effective method of tracking is created.
