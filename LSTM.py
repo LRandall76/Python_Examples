@@ -37,10 +37,6 @@ from keras.models import load_model
 from keras.callbacks import EarlyStopping
 from keras.callbacks import ModelCheckpoint
 
-# Splitting and Normalization
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-
 # Parameter Optimization
 import hyperopt as hyperopt
 from hyperopt import hp, fmin, tpe, STATUS_OK, Trials
